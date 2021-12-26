@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+    const name = "Hamza";
+
     return (
-        <div>
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1>My first app</h1>
+        <div className="container">
+            <h1>Hello from React</h1>
+            <h1>Hello from {name}!</h1>
         </div>
     );
 }

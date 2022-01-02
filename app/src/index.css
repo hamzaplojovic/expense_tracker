@@ -7,7 +7,7 @@ body {
     font-family: "Courier New", Courier, monospace;
 }
 
-.container {
+.main {
     display: flex;
     width: 90%;
     height: 300px;
@@ -34,4 +34,8 @@ button {
 button:hover {
     background-color: black;
     color: white;
+}
+
+.items {
+    margin-top: 50px;
 }

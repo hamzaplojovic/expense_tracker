@@ -8,7 +8,7 @@ function App() {
             <div className="add">
                 <Header />
             </div>
-            <div className="items"></div>
+            <div className="items" id="items"></div>
         </div>
     );
 }

@@ -16,7 +16,18 @@ const Header = ({ title }) => {
             >
                 Add
             </button>
-            <button>Remove</button>
+            <button
+                className="remove"
+                onClick={() => {
+                    var r_input = window.prompt(
+                        "Enter item you want to remove"
+                    );
+                    var items = document.querySelectorAll("h3");
+                    console.log(items);
+                }}
+            >
+                Remove
+            </button>
         </div>
     );
 };

@@ -23,7 +23,11 @@ const Header = ({ title }) => {
                         "Enter item you want to remove"
                     );
                     var items = document.querySelectorAll("h3");
-                    console.log(items);
+                    for (let i of items) {
+                        if (i.textContent === r_input) {
+                            i.style.display = "none";
+                        }
+                    }
                 }}
             >
                 Remove

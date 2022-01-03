@@ -1,14 +1,10 @@
-import Header from "./components/Header";
-
-import "./App.css";
+import Todo from "./components/Todo";
 
 function App() {
     return (
-        <div className="main">
-            <div className="add">
-                <Header />
-            </div>
-            <div className="items" id="items"></div>
+        <div>
+            <h1>My Todos</h1>
+            <Todo text="Learn React" />
         </div>
     );
 }

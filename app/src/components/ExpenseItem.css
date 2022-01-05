@@ -7,6 +7,27 @@
     margin: 1rem 0;
     border-radius: 12px;
     background-color: #4b4b4b;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#date {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 0.9;
+    padding: 20px;
+    padding-top: 25px;
+    font-family: "Syncopate", sans-serif;
+    text-transform: uppercase;
+    background: radial-gradient(
+            circle at 100%,
+            rgb(255, 255, 255),
+            rgb(185, 180, 180) 50%
+        ),
+        no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .expense-item__description {

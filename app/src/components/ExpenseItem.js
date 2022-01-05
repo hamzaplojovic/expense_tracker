@@ -1,13 +1,13 @@
 // A component in React is a function!!!
 import "./ExpenseItem.css";
 
-function ExpenseItem() {
+function ExpenseItem(props) {
     return (
         <div className="expense-item">
-            <div>January 12th 2022</div>
+            <div id="date">{props.date}</div>
             <div className="expense-item__description">
-                <h2>Car Insurance</h2>
-                <div className="expense-item__price">$293.4</div>
+                <h2>{props.name}</h2>
+                <div className="expense-item__price">{"$" + props.price}</div>
             </div>
         </div>
     );

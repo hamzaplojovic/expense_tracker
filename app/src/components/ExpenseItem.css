@@ -26,7 +26,7 @@
             rgb(185, 180, 180) 50%
         ),
         no-repeat;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

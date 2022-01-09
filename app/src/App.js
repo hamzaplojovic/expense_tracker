@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div>
             <NewExpense />
-            <Expenses price="90" />
+            <Expenses />
         </div>
     );
 };

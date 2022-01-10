@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hamzaplojovic.github.io/React/app/static/css/main.c30e324e.css",
+    "main.js": "/hamzaplojovic.github.io/React/app/static/js/main.071415ec.js",
+    "index.html": "/hamzaplojovic.github.io/React/app/index.html",
+    "main.c30e324e.css.map": "/hamzaplojovic.github.io/React/app/static/css/main.c30e324e.css.map",
+    "main.071415ec.js.map": "/hamzaplojovic.github.io/React/app/static/js/main.071415ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c30e324e.css",
+    "static/js/main.071415ec.js"
+  ]
+}
